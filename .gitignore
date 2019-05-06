@@ -1,0 +1,44 @@
+### Maven ###
+/backend/commons/target/
+/backend/server/target/
+/backend/standalone/target/
+!backend/.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+# dependencies
+/frontend/node_modules
+
+# lock files
+/frontend/yarn.lock
+/frontend/package-lock.lock
+
+# testing
+/frontend/coverage
+
+# production
+/frontend/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
