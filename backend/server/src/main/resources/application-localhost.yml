@@ -19,4 +19,4 @@ jwt:
 
 #Cors constants
 cors:
-  origin: "http://84.0.0.31:3000"
+  origin: "*"
