@@ -1,5 +1,5 @@
-export const ONLINE_API_URL = process.env.NODE_ENV === 'production' ? 'http://bikechmps-env.b48j9rxnhd.us-east-2.elasticbeanstalk.com/api' : 'http://localhost:8080/api';
-export const OFFLINE_API_URL = 'http://localhost:8081/api';
+export const ONLINE_API_URL = process.env.NODE_ENV === 'production' ? 'http://app1:8080/api' : 'http://app1:8080/api';
+export const OFFLINE_API_URL = 'http://app1:8080/api';
 export const ACCESS_TOKEN = 'Jwt Token';
 export const EMAIL_MAX_LENGTH = 255;
 export const NAME_MIN_LENGTH = 2;
